@@ -21,7 +21,7 @@ end
 
 def random_site()
     puts "Random site selected\n"
-    puts "Which path would you like to use? (Use .. for Github dir)"
+    puts "Which path would you like to use? (Use . for current dir)"
     path = gets.chomp
 
     puts "Enter name for project"
